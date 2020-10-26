@@ -1,0 +1,20 @@
+body{
+    font-family: "Times New Roman";
+    width: 700px;
+    height: auto;
+    word-spacing:5px;
+    text-indent:1cm;
+    text-align: justify;
+}
+p{
+    font-size: 20px;
+}
+.in_dam{
+    font-weight: bold;
+}
+#blue{
+    color: aqua;
+}
+.chung{
+    color: blue;
+}
