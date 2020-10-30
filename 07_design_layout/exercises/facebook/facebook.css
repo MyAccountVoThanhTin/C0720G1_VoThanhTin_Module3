@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: Verdana,sans-serif;
+}
+#main{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: auto;
+}
+#menu{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    clear: both;
+    margin-bottom: 3px;
+}
+#left{
+    width: 24.5%;
+    height: 900px;
+    background-color: aqua;
+    float: left;
+    margin-top: 63px;
+}
+#content{
+    width: 50%;
+    height: 900px;
+    border: solid 2px red;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 63px;
+}
+#right{
+    width: 24.5%;
+    height: 900px;
+    background-color: yellow;
+    float: left;
+    margin-top: 63px;
+}
+#fb{
+    margin-top: 2px;
+    margin-left: 10px;
+    height: 95%;
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+#tim-kiem{
+   height: 50%;
+    margin-top: 15px;
+    float: left;
+    border-radius: 20px;
+    width: 200px;
+    outline: none;
+}
+#tasbar{
+    height: 95%;
+    width: 50%;
+    margin-top: 3px;
+    margin-left: 90px;
+    float: left;
+}
+.tasbar-icon{
+    height: 95%;
+    margin-top: 2px;
+    width: 19.45%;
+    margin-left: 2px;
+    margin-right: 2px;
+    float: left;
+    position: relative;
+}
+.img-icon{
+    height: 60%;
+    width: 30px;
+}
+.button{
+    height: 50px;
+    width: 100%;
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+#menu3{
+    float: right;
+    height: 60px;
+    width: 24.5%;
+    background-color: #004C00;
+    margin-right: 2px;
+}
+#tasbar .tasbar-icon:hover{
+    background-color: blue;
+}
