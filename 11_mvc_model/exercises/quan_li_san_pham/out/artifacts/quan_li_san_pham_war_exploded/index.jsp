@@ -91,7 +91,7 @@
   </div>
 <br>
 <form action="" method="get" class="form">
-  <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" href="?action=findName&nane=${search}">SearchByName: </a>
+  <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" href="?action=findName">SearchByName: </a>
   <br>
   <input type="text" class="form-control" name="search">
 </form>
