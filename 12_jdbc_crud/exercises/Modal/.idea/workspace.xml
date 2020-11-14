@@ -6,11 +6,39 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d19b94-e906-41ec-b8fd-e9dec7dfa26c" name="Default Changelist" comment="" />
+    <list default="true" id="d7d19b94-e906-41ec-b8fd-e9dec7dfa26c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../10_jsp_jstl/exercises/New folder/java-web-currency-converter-jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10_jsp_jstl/exercises/New folder/java-web-currency-converter-jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/CharsetFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/CharsetFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/student/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/student/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/repository/IProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/repository/IProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/repository/ProductsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/repository/ProductsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/service/IProductsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/service/IProductsServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/service/ProductsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/WEB-INF/classes/service/ProductsServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/artifacts/product_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/production/product/controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/production/product/controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/production/product/repository/IProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/production/product/repository/IProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/production/product/repository/ProductsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/production/product/repository/ProductsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/production/product/service/IProductsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/production/product/service/IProductsServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/out/production/product/service/ProductsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/../product/out/production/product/service/ProductsServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/src/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product/src/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/src/repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product/src/repository/IProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/src/repository/ProductsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product/src/repository/ProductsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/src/service/IProductsServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product/src/service/IProductsServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/src/service/ProductsServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product/src/service/ProductsServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../product/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practices/users/out/artifacts/users_war_exploded/WEB-INF/classes/controller/UsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../practices/users/out/artifacts/users_war_exploded/WEB-INF/classes/controller/UsersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../practices/users/out/production/users/controller/UsersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../practices/users/out/production/users/controller/UsersServlet.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -27,6 +55,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1juVcvvPzxUEjX18LYGFh1XSo8g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,22 +63,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Work\CodeGym\Class\C0720G1\Module_3\Demo\Modal\web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Work\CodeGym\Class\C0720G1\Module_3\Demo\Modal\web\WEB-INF" />
       <recent name="D:\Work\CodeGym\Class\C0720G1\Module_3\Demo\Modal\src" />
       <recent name="D:\Work\CodeGym\Class\C0720G1\Module_3\Demo\Modal\web\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\CodeGym\Class\C0720G1\Module_3\Demo\Modal\web" />
     </key>
   </component>
   <component name="RunManager">
@@ -158,6 +188,9 @@
       <option name="presentableId" value="Default" />
       <updated>1604654046784</updated>
       <workItem from="1604654049438" duration="4625000" />
+      <workItem from="1604728965754" duration="2825000" />
+      <workItem from="1604732096929" duration="1490000" />
+      <workItem from="1604737008017" duration="71000" />
     </task>
     <servers />
   </component>
@@ -169,10 +202,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604657560869" />
+    <state x="465" y="43" key="#Tomcat_9.0.37" timestamp="1604730201056">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="43" key="#Tomcat_9.0.37/0.0.1536.864@0.0.1536.864" timestamp="1604730201056" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604654397928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604654397928" />
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604729011823">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1604729011823" />
     <state x="554" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604654577661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,5 +270,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="357" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604658774985" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1604729212075">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1604729212075" />
   </component>
 </project>

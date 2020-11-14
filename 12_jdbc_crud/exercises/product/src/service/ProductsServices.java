@@ -3,6 +3,7 @@ package service;
 import model.Products;
 import repository.ProductsRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ProductsServices implements IProductsServices {
@@ -14,7 +15,7 @@ public class ProductsServices implements IProductsServices {
 
     @Override
     public void saveProduct(Products products) {
-
+        productsRepository.saveProduct(products);
     }
 
     @Override
@@ -23,7 +24,29 @@ public class ProductsServices implements IProductsServices {
     }
 
     @Override
-    public Products findByName(String name) {
-        return null;
+    public List<Products> finByName(String name) {
+        return   productsRepository.findByName(name);
     }
+
+    @Override
+    public void deleteProduct(int id) {
+        productsRepository.deletePRoduct(id);
+    }
+
+    @Override
+    public Products getProduct(int id) {
+        return productsRepository.getProduct(id);
+    }
+
+    @Override
+    public void createProduct(Products products) {
+        productsRepository.createProduct(products);
+    }
+
+    @Override
+    public List<Products> sort(String name) {
+        return productsRepository.sort(name);
+    }
+
+
 }

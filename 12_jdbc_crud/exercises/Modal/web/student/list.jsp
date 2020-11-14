@@ -118,7 +118,6 @@
 
 <script>
     function onDelete(id) {
-        console.log(id);
         document.getElementById("modalId").value = id;
     }
 </script>

@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/10_jsp_jstl/exercises/New folder/java-web-currency-converter-jsp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/12_jdbc_crud/practices/demo/user-manager-jdbc" vcs="Git" />
   </component>
 </project>
