@@ -14,6 +14,7 @@ public class CustomerRepo implements ICustomerRepo {
     private static final String GET_ALL_CUSTOMER = "select * from customer";
     private static final String GET_ALL_CUSTOMER_TYPE = "select * from customer_type";
     private static final String CREATE_CUSTOMER = "insert into customer(customer_type_id,customer_name,customer_birthday,customer_gender,customer_id_card,customer_phone,customer_email,customer_address) values(?,?,?,?,?,?,?,?)";
+    private static final String GET_CUSTOMER_BY_ID = "select * from customer where customer_id = ?";
 
     private Connection getConnection(){
         Connection connection = null;
@@ -127,5 +128,52 @@ public class CustomerRepo implements ICustomerRepo {
                 e.printStackTrace();
             }
         }
+    }
+
+    @Override
+    public Customer getCustomer(int id) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        Customer customer = null;
+        try{
+            connection = getConnection();
+            connection.setAutoCommit(false);
+            preparedStatement = connection.prepareStatement(GET_CUSTOMER_BY_ID);
+            preparedStatement.setInt(1,id);
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()){
+                customer = new Customer();
+                customer.setId(rs.getInt("customer_id"));
+                customer.setIdCustomerType(rs.getInt("customer_type_id"));
+                customer.setName(rs.getString("customer_name"));
+                customer.setBirthday(rs.getString("customer_birthday"));
+                customer.setGender(rs.getString("customer_gender"));
+                customer.setId_card(rs.getString("customer_id_card"));
+                customer.setPhone(rs.getString("customer_phone"));
+                customer.setEmail(rs.getString("customer_email"));
+                customer.setAddress(rs.getString("customer_address"));
+            }
+            connection.commit();
+            connection.setAutoCommit(true);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            try {
+                connection.rollback();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        }finally {
+            try {
+                preparedStatement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        return customer;
     }
 }

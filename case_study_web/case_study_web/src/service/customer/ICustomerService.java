@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface ICustomerService {
     List getAllCustomer();
-    String[] createCustomer(Customer customer);
+    void createCustomer(Customer customer);
+    Customer getCustomer(int id);
 }

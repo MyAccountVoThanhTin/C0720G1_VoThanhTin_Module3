@@ -188,12 +188,105 @@
                         <td><c:out value="${listCustomerType.nameCustomerType}"/></td>
                     </c:if>
                 </c:forEach>
-                <td>Action</td>
+                <td>
+                    <form action="/customer" method="get">
+                        <input type="hidden" name="action" value="getCustomer">
+                        <input type="hidden" name="id" value="${listCustomer.id}">
+                        <button class="btn btn-primary" type="submit">Edit</button>
+                    </form>
+                    <button id="modalEdit" hidden="hidden" type="button" class="btn btn-primary btn-lg"
+                            data-toggle="modal"
+                            data-target="#modelEditCustomer"></button>
+                </td>
             </tr>
         </c:forEach>
         </tbody>
     </table>
 </div>
+<!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="modelEditCustomer" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Edit Customer</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="" method="post">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="col-form-label">Id:</label>
+                        <input type="text" class="form-control" name="name" value="${customer.id}" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Name:</label>
+                        <input type="text" class="form-control" name="name" value="${customer.name}">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Birthday:</label>
+                        <input type="text" class="form-control" name="name" value="${customer.birthday}">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Id Card:</label>
+                        <input type="text" class="form-control" name="name" value="${customer.id_card}">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Phone:</label>
+                        <input type="text" class="form-control" name="name" value="${customer.phone}">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Email:</label>
+                        <input type="text" class="form-control" name="name" value="${customer.email}">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Address:</label>
+                        <input type="text" class="form-control" name="name" value="${customer.address}">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Gender:</label>
+                        <select name="gender">
+                            <c:choose>
+                                <c:when test="${customer.gender == 'Nam'}">
+                                    <option value="Nam" selected>Nam</option>
+                                    <option value="Nu">Nu</option>
+                                </c:when>
+                                <c:otherwise>
+                                    <option value="Nu" selected>Nu</option>
+                                    <option value="Nam">Nam</option>
+                                </c:otherwise>
+                            </c:choose>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-form-label">Customer Type:</label>
+                        <select name="idCustomerType">
+                            <c:forEach var="customerType" items="${list.get(1)}">
+                                <c:choose>
+                                    <c:when test="${customerType.idCustomerType == customer.idCustomerType}">
+                                        <option value="${customer.idCustomerType}" selected><c:out
+                                                value="${customerType.nameCustomerType}"/></option>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <option value="${customerType.idCustomerType}"><c:out
+                                                value="${customerType.nameCustomerType}"/></option>
+                                    </c:otherwise>
+                                </c:choose>
+                            </c:forEach>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -212,6 +305,10 @@
             "pageLength": 2
         });
     })
+
+    <c:if test="${messageEdit == '1'}">
+    document.getElementById("modalEdit").click();
+    </c:if>
 </script>
 </body>
 </html>
